@@ -10,7 +10,7 @@ include(FetchContent)
 FetchContent_Declare(
         libdeflate
         GIT_REPOSITORY https://github.com/ebiggers/libdeflate.git
-        GIT_TAG master
+        GIT_TAG c8c56a20f8f621e6a966b716b31f1dedab6a41e3 # v1.25
 )
 FetchContent_MakeAvailable(libdeflate)
 
